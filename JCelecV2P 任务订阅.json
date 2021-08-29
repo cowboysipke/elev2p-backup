@@ -1,5 +1,5 @@
 {
-  "name": "elecV2P 定时任务订阅",
+  "name": "晶彩elecV2P 定时任务订阅",
   "author": "留个名字",
   "desc": "xx 导出的任务订阅。该订阅适用于 elecV2P，与其他软件并不兼容。相关说明参考：https://github.com/elecV2/elecV2P-dei/tree/master/docs/06-task.md",
   "date": "2021-08-29 20:06:05",
@@ -74,87 +74,6 @@
       "job": {
         "type": "runjs",
         "target": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_withdraw.js"
-      }
-    },
-    {
-      "name": "贴吧",
-      "type": "cron",
-      "time": "10 0 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "TieBa.js"
-      }
-    },
-    {
-      "name": "网易云",
-      "type": "cron",
-      "time": "10 1 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "neteasemusic.js"
-      }
-    },
-    {
-      "name": "饿了么签到",
-      "type": "cron",
-      "time": "10 1 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "elemSign.js"
-      }
-    },
-    {
-      "name": "饿了么任务",
-      "type": "cron",
-      "time": "20 10 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "eleme_mission.js"
-      }
-    },
-    {
-      "name": "饿了么吃货豆",
-      "type": "cron",
-      "time": "20 10 0 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "eleme_daily.js"
-      }
-    },
-    {
-      "name": "美团买菜",
-      "type": "cron",
-      "time": "30 10 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "maicai_checkin.js"
-      }
-    },
-    {
-      "name": "中青浏览赚",
-      "type": "cron",
-      "time": "20 5,14 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "youth_gain.js"
-      }
-    },
-    {
-      "name": "中青阅读",
-      "type": "cron",
-      "time": "20 10 0 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "Youth_Read.js"
-      }
-    },
-    {
-      "name": "中青任务",
-      "type": "cron",
-      "time": "0 1-23/2 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "youth.js"
       }
     }
   ]
